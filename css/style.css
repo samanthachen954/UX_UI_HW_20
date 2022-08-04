@@ -35,8 +35,13 @@
 }
 .gridContainer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 24px 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 24px;
-    place-self: center;
+    justify-items: center;
+}
+.finalprotoImg{
+}
+.container5{
+    display: flex; 
 }
