@@ -8,17 +8,32 @@
     margin-left: 0px;
     margin-right: 0px;
 }
+.container2{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.lowfidImg{
+    width: 25%;
+}
+.container3{
+    display: flex;
+    align-items: center;
+}
 .researchCardImage {
     width: fix-content;
     padding: 5%;
 }
 .researchCard{
     margin-top: 24px;
-    size: 96px;
+    width: 360px;
 }
 .heroImage{
-    background-image: url("../images/Fav_Hero_Image.png");
+    /*background-image: url("../images/Fav_Hero_Image.png");*/
     background-size: cover;
+    height: auto;
+    width: 100%;
 }
 .problemStatement{
     margin-top: 24px;
@@ -31,7 +46,8 @@
     align-items: center;
 }
 .container4{
-    width: 240px;
+    width: 90%;
+    height: 100%;
 }
 .gridContainer{
     display: grid;
@@ -39,9 +55,54 @@
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 24px;
     justify-items: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+
 }
 .finalprotoImg{
+    width: 25%;
 }
 .container5{
     display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+.finalPrototypeSection{
+    margin-bottom: 64px;
+}
+@media (max-width:1200px){
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      gap: 24px;
+    }
+    .researchCard {
+        width: 90%;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 24px;      
+    }
+    .container5{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        gap: 24px;      
+    }
+    .finalprotoImg{
+        display: flex;
+        justify-items: center;
+    }
+    .finalprotoImg{
+        display: flex;
+        justify-items: center;
+    }    
+    }
 }
